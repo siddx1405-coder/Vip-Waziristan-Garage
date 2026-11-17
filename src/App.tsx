@@ -189,11 +189,7 @@ export default function App() {
       <header className="site-header">
         <div className="page-width nav-wrap">
           <a href="#" className="brand" aria-label="VIP Waziristan Garage home">
-            <span className="brand-mark">V</span>
-            <span>
-              <strong>VIP WAZIRISTAN</strong>
-              <small>{isArabic ? "كراج وزيرستان" : "GARAGE"}</small>
-            </span>
+            <img src="/logo.png" alt="VIP Waziristan Garage logo" className="brand-logo" />
           </a>
           <nav aria-label="Primary navigation">
             <a href="#services">{t.nav[0]}</a>
@@ -396,11 +392,7 @@ export default function App() {
       <footer>
         <div className="page-width footer-main">
           <a href="#" className="brand brand-footer">
-            <span className="brand-mark">V</span>
-            <span>
-              <strong>VIP WAZIRISTAN</strong>
-              <small>GARAGE</small>
-            </span>
+            <img src="/logo.png" alt="VIP Waziristan Garage logo" className="brand-logo brand-logo-footer" />
           </a>
           <p>{t.footerLine}</p>
           <a
